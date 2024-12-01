@@ -1,0 +1,68 @@
+; setup.inf
+
+[version]
+signature="$Windows NT$"
+
+[DefaultInstall]
+CopyFiles=Inf.Copy, Exe.Copy;
+AddReg=HEIC2PNGDoHide.Reg
+
+[DefaultInstall.ntx86]
+CopyFiles=Inf.Copy, Exe.Copy;
+AddReg=HEIC2PNGDoHide.Reg.ntx86
+
+[DefaultUninstall]
+DelFiles=Inf.Copy, Exe.Copy
+DelReg=HEIC2PNGDoHide.Reg
+
+[DefaultUninstall.ntx86]
+DelFiles=Inf.Copy, Exe.Copy
+DelReg=HEIC2PNGDoHide.Reg.ntx86
+
+[Inf.Copy]
+setup.inf;
+
+[Exe.Copy]
+HEIC2PNG.bat;
+
+[SourceDisksNames]
+55=%TITLE%,"",1
+
+[SourceDisksFiles]
+Inf.Copy=55
+Exe.Copy=56
+
+[DestinationDirs]
+Inf.Copy=17;
+Exe.Copy=25;
+
+[HEIC2PNGDoHide.Reg]
+HKCR,%NAMECOPY%
+HKCR,%NAMECOPY%,,,%MENUNAMECOPY%
+HKCR,%NAMECOPY%\command\,,,%CMDNAMECOPY%
+HKCR,%DOHEIC2PNG%
+HKCR,%DOHEIC2PNG%,,,%MENUDOHEIC2PNG%
+HKCR,%DOHEIC2PNG%\command\,,,%CMDDOHEIC2PNG%
+HKLM,%SMWCUG%
+HKLM,%SMWCUG%,DisplayName,,%TITLE% ÇÃçÌèú
+HKLM,%SMWCUG%,UninstallString,,"rundll.exe setupx.dll,InstallHinfSection DefaultUninstall 132 %17%\setup.inf"
+
+[HEIC2PNGDoHide.Reg.ntx86]
+HKCR,%NAMECOPY%
+HKCR,%NAMECOPY%,,,%MENUNAMECOPY%
+HKCR,%NAMECOPY%\command\,,,%CMDNAMECOPY%
+HKCR,%DOHEIC2PNG%
+HKCR,%DOHEIC2PNG%,,,%MENUDOHEIC2PNG%
+HKCR,%DOHEIC2PNG%\command\,,,%CMDDOHEIC2PNG%
+HKLM,%SMWCUG%
+HKLM,%SMWCUG%,DisplayName,,%TITLE% ÇÃçÌèú
+HKLM,%SMWCUG%,UninstallString,,"RunDll32.exe syssetup.dll,SetupInfObjectInstallAction DefaultUninstall.ntx86 132 %17%\setup.inf"
+
+[Strings]
+;NAMECOPY="AllFilesystemObjects\shell\NameCopy"
+DOHEIC2PNG="AllFilesystemObjects\shell\DoHEIC2PNG"
+MENUDOHEIC2PNG="HEICÅ®PNG"
+CMDDOHEIC2PNG="HEIC2PNG.bat ""%1"""
+SMWCUG="Software\Microsoft\Windows\CurrentVersion\Uninstall\HEIC2PNG"
+TITLE="HEIC2PNG ver1.001"
+

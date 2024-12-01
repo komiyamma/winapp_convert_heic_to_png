@@ -1,0 +1,2 @@
+C:\Users\master\source\repos\convert_heic_to_png\convert_heic_to_png\bin\Release\net9.0\publish\win-x64\convert_heic_to_png.exe
+C:\Users\master\source\repos\convert_heic_to_png\convert_heic_to_png\bin\Release\net9.0\publish\win-x64\Magick.Native-Q8-x64.dll
