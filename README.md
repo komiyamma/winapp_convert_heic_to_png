@@ -1,0 +1,2 @@
+# winapp_convert_heic_to_png
+WindowsのHEICの画像ファイルを右クリックで、画像を変換できるうように
