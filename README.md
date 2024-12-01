@@ -1,4 +1,7 @@
 # winapp_convert_heic_to_png
+
+![convet_heic_to_png v1.0.0](https://img.shields.io/badge/convet_heic_to_png-v1.0.0-6479ff.svg)
+
 WindowsのHEICの画像ファイルを右クリックで、画像を変換できるうように
 
 - iphoneなどの写真の*.HEICを*.PNGに変換する。
