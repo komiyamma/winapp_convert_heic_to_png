@@ -74,7 +74,7 @@
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.0": {
+      "Microsoft.NET.ILLink.Tasks/9.0.4": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -161,10 +161,10 @@
         "tools/netstandard/ILCompiler.Build.Tasks.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.0": {
-      "sha512": "zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
+    "Microsoft.NET.ILLink.Tasks/9.0.4": {
+      "sha512": "xUdlUxiFwXhTYhB4VxKg/IA0+jlZXJPo70LYuMryWbJHdonIpZjw+7DO2B0pWwpXIOs6MlH5WVXPEtfrGEcVZA==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.0",
+      "path": "microsoft.net.illink.tasks/9.0.4",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -178,7 +178,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -217,7 +217,7 @@
     "net9.0": [
       "Magick.NET-Q8-AnyCPU >= 14.2.0",
       "Microsoft.DotNet.ILCompiler >= 9.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.4"
     ]
   },
   "packageFolders": {
@@ -227,11 +227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
+      "projectUniqueName": "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
       "projectName": "convert_heic_to_png",
-      "projectPath": "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
+      "projectPath": "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
       "packagesPath": "C:\\Users\\master\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\obj\\",
+      "outputPath": "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -263,9 +263,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -284,7 +284,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0, )",
+            "version": "[9.0.4, )",
             "autoReferenced": true
           }
         },
@@ -310,7 +310,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

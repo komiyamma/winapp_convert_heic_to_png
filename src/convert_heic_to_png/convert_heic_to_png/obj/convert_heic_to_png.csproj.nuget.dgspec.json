@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj": {}
+    "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj": {}
   },
   "projects": {
-    "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj": {
+    "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
+        "projectUniqueName": "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
         "projectName": "convert_heic_to_png",
-        "projectPath": "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
+        "projectPath": "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\convert_heic_to_png.csproj",
         "packagesPath": "C:\\Users\\master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\master\\source\\repos\\convert_heic_to_png\\convert_heic_to_png\\obj\\",
+        "outputPath": "G:\\repogitory\\winapp_convert_heic_to_png\\src\\convert_heic_to_png\\convert_heic_to_png\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -64,7 +64,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.4, )",
               "autoReferenced": true
             }
           },
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
